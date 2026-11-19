@@ -1,0 +1,14 @@
+.parent{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid red;
+    width: 1000px;
+    height: 600px;
+   
+}
+.child{
+    border: 1px solid green;
+    width: 200px;
+    height: 100px;
+   
+}
