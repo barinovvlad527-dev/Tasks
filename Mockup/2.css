@@ -1,0 +1,164 @@
+#wrapper {
+	width: 800px;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+
+
+
+#menu {
+	display: flex;
+	justify-content: left;
+	margin-bottom: 20px;
+	background-color: #484848;
+    
+
+    
+   
+    
+    
+}
+#menu a {
+	margin: 0 5px;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: #fff;
+	font: bold 14px Arial;
+}
+#menu a:hover, #menu a.active {
+	color: #484848;
+	background-color: #fff;
+}
+
+#content {
+	padding: 0 30px 20px;
+}
+#content h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+
+#wrapper1{
+    width: 800px;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+
+#menu1{
+    display: flex;
+    background-color: #ff9100;
+    height: 40px;
+}
+
+#menu1 a{
+    
+
+
+ 
+    margin-left: 5px;
+    padding: 10px;
+    font:15 Arial;
+    text-decoration:none ;
+    color:#ffffff;
+    
+  
+}
+
+#menu1 a:hover{
+    color: #ff9100;
+   
+    background-color: #ff9100;
+}
+
+#menu1 a:hover, #menu1 a.active1{
+    color:#ff9100;
+   
+    background-color: #f5f6fa;
+}
+
+#content1{
+    padding: 0 30px 20px;
+}
+#content h1{
+    text-align: center;
+    margin-top:0;
+    margin-bottom: 10px;
+}
+
+
+.h1{
+    color: #ff9100;
+    text-align: center;
+}
+
+#menu1_1{
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;                           
+    height: 40px;
+}
+
+#menu1_1 a{
+    
+
+
+ 
+    margin-left: 5px;
+    padding: 5px;
+    font:15 Arial;
+    text-decoration:none ;
+    color:#8f2d00;
+
+    
+    
+  
+}
+
+#menu1_1 a:hover{
+    color: #ff9100;
+    
+    background-color: #ff9100;
+}
+
+#menu1_1 a:hover, #menu1 a.active1_1{
+    color:#ff9100;
+   
+    background-color: #f5f6fa;
+}
+
+#wrapper2 {
+	width: 800px;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+
+.h4{
+    color: BLUE;
+    text-align: left;
+   
+   
+
+    
+}
+
+.p{
+    margin: 10px;
+}
+
+#content2 {
+	padding: 0 30px 20px;
+}
+#content2 h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#content2 p {
+	padding: 0 10px;
+	margin-bottom: 5px;
+	
+	text-align: justify;
+}
