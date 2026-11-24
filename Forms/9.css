@@ -1,0 +1,12 @@
+input::placeholder{
+    color:green;
+    
+}
+textarea::placeholder{
+    color:green;
+   
+}
+.resize{
+    width: 200px;
+    height: 75px;
+}
