@@ -1,3 +1,22 @@
-.text1{
-    color:red;
+.resize1{
+    width: 200px;
+    height: 75px;
+    resize: horizontal;
+}
+.resize2{
+    width: 200px;
+    height: 75px;
+    resize: vertical;
+}
+
+.resize3{
+    width: 200px;
+    height: 75px;
+    resize: both;
+}
+
+.resize4{
+    width: 200px;
+    height: 75px;
+    resize: both;
 }
