@@ -1,0 +1,29 @@
+.one{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background:repeating-linear-gradient(90deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 20px, rgb(255, 255, 255) 20px, rgb(255, 255, 255) 40px)
+}
+
+
+.two{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background:repeating-linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 20px, rgb(255, 255, 255) 20px, rgb(255, 255, 255) 40px)
+}
+
+.three{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background:repeating-linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 10px, rgb(255, 255, 255) 10px, rgb(255, 255, 255) 20px)
+}
+
+.four{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background:repeating-linear-gradient(45deg,rgb(255, 0, 0) 0px, rgb(255, 0, 0) 10px, rgb(255, 255, 255) 10px, rgb(255, 255, 255) 20px)
+}
+
