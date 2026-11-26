@@ -1,0 +1,52 @@
+.one{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(white, blue);
+}
+.two{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(at right top, white, blue);
+   
+}
+.three{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(at center, white, blue);
+
+}
+.four{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(at center, white, blue);
+  
+}
+.five{
+    width: 200px;
+    height: 200px;
+       border: 1px solid black;
+    background: radial-gradient(at center, white, blue);
+ 
+}
+.six{
+     width: 200px;
+    height: 200px;
+      border: 1px solid black;
+    background: radial-gradient(at left top, white, rgb(0, 0, 126));
+}
+.seven{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(rgb(0, 0, 0) 20px, rgb(255, 255, 255) 20px, rgb(255, 255, 255) 40px, green 60px);
+}
+.eight{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(green 20px, rgb(255, 255, 255) 1px, rgb(255, 255, 255) 40px, green 1px);
+}
