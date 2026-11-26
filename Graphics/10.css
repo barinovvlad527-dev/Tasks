@@ -1,5 +1,5 @@
 .one{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     background: repeating-radial-gradient(circle at center, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 2px, white 2px, white 4px);
 }
