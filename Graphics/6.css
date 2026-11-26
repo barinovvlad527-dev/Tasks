@@ -1,0 +1,74 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+
+.one{
+    width:200px;
+    height:200px;
+    box-shadow: 20px 15px 5px rgb(255, 0, 0);
+    border: 1px solid black;
+}
+.two{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    box-shadow: 15px -20px 0px green; 
+}
+
+.three{
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 0px 0px 5px black;
+    border: 1px solid black;
+}
+.four{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    box-shadow: inset -3px -4px 3px rgb(0, 0, 0); 
+}
+
+.five{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 2px 1px black,
+    0px -2px 1px black;
+    border: 1px solid black;
+}
+
+.six{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 30px 0px black,
+    0px -30px 0px black,
+    -30px 0px 0px black,
+     30px 0px 0px black;
+    border: 1px solid black;
+}
+
+.seven{
+    overflow: hidden;
+    padding-left: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 30px 0px black;
+   
+    border: 1px solid black;
+}
+
+.ten{
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 3px 3px 6px black;
+  
+    border: 1px solid black;
+}
+.ten{
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 3px 3px 6px blue,
+    inset -3px -3px 6px red;
+  
+    border: 1px solid black;
+}
