@@ -1,0 +1,142 @@
+
+@keyframes move{
+    from{
+        margin-left:0px;
+    }
+    to{
+        margin-left:400px;
+    }
+  }
+
+#elem1{
+    animation-timing-function:ease-out;
+    animation-name:move;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    
+    border:1px solid rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes move1{
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: red;
+    }
+  }
+
+#elem2{
+    animation-name:move1;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    border:1px solid rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+}
+
+
+@keyframes move2{
+    0%{
+        margin-left: 0px;
+        margin-top:0px;
+    }
+    25%{
+        margin-left:400px;
+        margin-top:0px;
+    }
+    50%{
+        margin-left: 400px;
+        margin-top: 400px;
+    }
+    75%{
+        margin-left:0px;
+        margin-top:400px;
+    }
+    100%{
+        margin-left: 0px;
+        margin-top:0px;
+    }
+}
+
+  
+
+#elem3{
+   
+    animation-name:move2;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    
+    
+    border:1px solid rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes move3{
+    0%{
+        margin-left: 0px;
+        margin-top:0px;
+        background-color: white;
+    }
+    25%{
+        margin-left:400px;
+        margin-top:0px;
+        background-color: red;
+    }
+    50%{
+        margin-left: 400px;
+        margin-top: 400px;
+        background-color: white;
+    }
+    75%{
+        margin-left:0px;
+        margin-top:400px;
+        background-color: red;
+    }
+    100%{
+        margin-left: 0px;
+        margin-top:0px;
+         background-color: white;
+    }
+}
+
+  
+
+#elem4{
+   
+    animation-name:move3;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    
+    
+    border:1px solid rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+@keyframes move4{
+    from{
+        margin-left:0px;
+    }
+    to{
+        margin-left:400px;
+    }
+  }
+
+#elem5{
+    animation-direction: alternate;
+    animation-timing-function:ease;
+    animation-name:move4;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    
+    border:1px solid rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+}
+
