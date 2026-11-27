@@ -1,0 +1,10 @@
+#elem1{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s linear;
+}
+#elem1:hover{
+    transform: rotate(45deg);
+}
+
