@@ -1,0 +1,104 @@
+@keyframes move{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}
+#elem1{
+    animation-timing-function:ease;
+    animation-direction: alternate;
+    animation-play-state: paused;
+    animation-duration: 1s;
+    animation-name:move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid rgb(255, 0, 0);
+    height: 50px;
+}
+
+@keyframes move1 {
+	from {
+		margin-left: 0;
+	}
+	to {
+		margin-left: 400px;
+	}
+}
+
+#elem2{
+	border: 1px solid green;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+#elem3{
+    height: 50px;
+    width: 50px;
+    animation-timing-function:ease;
+    animation-direction: alternate;
+    animation-play-state: paused;
+    animation-duration: 1s;
+    animation-name:move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+#elem2:hover + #elem3 {
+	animation-play-state: running;
+	border: 1px solid rgb(255, 0, 0);
+    width: 50px;
+}
+
+
+#elem4{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+#elem5{
+    border-radius: 90px;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+}
+
+@keyframes move3{
+    0%{
+        margin-left: 0px;
+        margin-top:0px;
+    }
+    25%{
+        margin-right:10px;
+        margin-top:90px;
+    }
+    50%{
+        margin-left: 15px;
+        margin-top:  70px;
+    }
+    75%{
+        margin-left:20px;
+        margin-top: 90px;
+    }
+    100%{
+        margin-left: 25px;
+        margin-top:90px;
+    }
+  }
+
+#elem5{
+   
+    animation-name:move3;
+    animation-duration: 2000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    
+    border:1px solid rgb(255, 0, 0);
+    width: 10px;
+    height: 10px;
+}
+
