@@ -1,0 +1,51 @@
+.elem1{
+	border: 1px solid black;
+	width: 100px;
+	height:100px;
+    transition: transform 1s;
+    
+}
+.elem1:hover {
+	transform-origin: 100% 100%;
+	transform: rotate(60deg);
+    
+}
+
+.elem2{
+	border: 1px solid black;
+	width: 100px;
+	height:100px;
+    
+}
+.elem2:hover {
+	transform-origin: 0% 0%;
+	transform: rotate(60deg);
+    
+}
+.elem3{
+    border: 3px solid black;
+	width: 100px;
+	height: 100px;
+	transition: transform 3s linear;
+}
+.elem3:hover {
+	transform: rotate(45deg);
+}
+
+.elem4{
+	border: 1px solid black;
+	width: 100px;
+	height:100px;
+    
+}
+.elem4:hover {
+	transform-origin: left center;
+	transform: rotate(30deg);
+    
+}
+
+.elem5{
+    border:1px
+    
+
+}
