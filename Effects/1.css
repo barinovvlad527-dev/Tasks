@@ -1,0 +1,111 @@
+#elem1{
+    border:1px solid rgb(255, 0, 0);
+    transition-duration: 1s;
+    transition-property: all;
+    height: 50px;
+    width: 200px;
+
+}
+#elem1:hover{
+   background-color:red;
+}
+
+#elem2{
+    color:rgb(255, 0, 0);
+    border: 1px solid red;
+    transition-duration:1s;
+    transition-property:all;
+    height: 50px;
+    width: 200px;
+}
+#elem2:hover{
+    color:white;
+    background-color: red;
+
+   
+}
+
+#elem3{
+    border: 1px solid red;
+    transition-duration: 2s;
+    transition-property: width;
+    width: 200px;
+    height: 50px;
+}
+#elem3:hover{
+    width:  400px;
+}
+
+#elem4{
+    justify-content: left;
+    border: 1px solid red;
+    transition-duration: 2s;
+    transition-property: width;
+    width: 200px;
+    height: 50px;
+}
+#elem4:hover{
+    width:  400px;
+    justify-content: center;
+}
+#elem5{
+   
+    border: 1px solid red;
+    transition: width 2s ease 3s;
+    width: 200px;
+    height: 50px;
+}
+#elem5:hover{
+    width:  400px;
+   
+}
+
+#elem6{
+   
+    border: 1px solid red;
+    transition-duration: 1s;
+    transition-property: width;
+    width: 200px;
+    height: 50px;
+}
+#elem6:hover{
+    width:  400px;
+   
+}
+#elem7{
+    color:rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition-duration: 1s;
+    transition-property: width;
+    width: 200px;
+    height: 50px;
+
+    
+}
+#elem7:focus{
+    outline:none;
+    border:1px solid blue;
+    color:blue;
+    width:  400px;
+  
+   
+}
+
+#elem8{
+    color:rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    transition: width 1s ease 3s;
+    width: 200px;
+    height: 50px;
+
+    
+}
+#elem8:hover{
+    outline:none;
+    border:1px solid blue;
+    color:blue;
+    
+    box-shadow: 0px 0px 3px blue;
+  
+   
+}
