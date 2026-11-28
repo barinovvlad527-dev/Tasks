@@ -1,0 +1,13 @@
+#elem1{
+	width: 30vw;
+	height: 50vh;
+	margin: 30px auto;
+	border: 1px solid red;
+}
+#elem2{
+	width: 70vw;
+	height: 50vh;
+	margin: 30px auto;
+	border: 1px solid red;
+}
+
