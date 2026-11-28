@@ -27,12 +27,14 @@
 }
 
 #menu a:hover{
+   
     color: #00ffaa;
     border: 1px solid #00ffaa;
     background-color: #00ffaa;
 }
 
 #menu a:hover, #menu a.active{
+   
     color:#00ffaa;
     border: 1 px solid #00ffaa;
     background-color: #f5f6fa;

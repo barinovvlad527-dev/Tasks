@@ -1,0 +1,97 @@
+.elem1{
+    display: flex;
+    
+}
+
+.elem1 a{
+    margin-right: 5px;
+    padding: 10px;
+    font:15 Arial;
+    text-decoration:none ;
+    color:blue;
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+}
+.elem1 a:hover{
+    transform: rotate(15deg);
+    color: blue;
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+    transition: transform 1s linear;
+}
+
+.elem1 a:hover, .elem1 a.active{
+    transform: rotate(15deg);
+    color:blue;
+    border: 1 px solid blue;
+    background-color: #ffffff;
+}
+
+.elem2{
+    display: flex;
+    transform: rotate(-5deg);
+    
+}
+
+.elem2 a{
+    margin-right: 5px;
+    padding: 10px;
+    font:15 Arial;
+    text-decoration:none ;
+    color:blue;
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+}
+.elem2 a:hover{
+    transform: skew(-30deg) scale(1.5);
+    color: blue;
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+    transition: transform 1s linear;
+}
+
+.elem3{
+    display: flex;
+    transform: skew(-15deg);
+    
+}
+
+.elem3 a{
+    margin-right: 5px;
+    padding: 10px;
+    font:15 Arial;
+    text-decoration:none ;
+    color:blue;
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+}
+.elem3 a:hover{
+    transform: scale(1.5);
+    color: blue;
+    border: 1px solid blue;
+    background-color: rgb(255, 255, 255);
+    transition: transform 300ms linear;
+}
+.elem4{
+    display: flex;
+}
+.p1{
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.a1{
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    transform: rotate(90deg);
+}
+.p2{
+    transform: rotate(-3deg);
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
