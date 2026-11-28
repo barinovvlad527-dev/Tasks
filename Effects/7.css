@@ -1,51 +1,177 @@
-.elem1{
+.elem11 {
+	width: 200px;
+	height: 200px;
+}
+
+.elem1 {
 	border: 1px solid black;
 	width: 100px;
-	height:100px;
-    transition: transform 1s;
-    
+	height: 100px;
+	transition: transform 1s linear;
+
 }
+
 .elem1:hover {
 	transform-origin: 100% 100%;
 	transform: rotate(60deg);
-    
+
+
 }
 
-.elem2{
+.elem2 {
 	border: 1px solid black;
 	width: 100px;
-	height:100px;
-    
+	height: 100px;
+	transition: transform 1s linear;
+
 }
+
 .elem2:hover {
 	transform-origin: 0% 0%;
 	transform: rotate(60deg);
-    
+
+
 }
-.elem3{
-    border: 3px solid black;
+
+.elem3 {
+	border: 3px solid black;
 	width: 100px;
 	height: 100px;
 	transition: transform 3s linear;
 }
+
 .elem3:hover {
 	transform: rotate(45deg);
 }
 
-.elem4{
+.elem4 {
 	border: 1px solid black;
 	width: 100px;
-	height:100px;
-    
+	height: 100px;
+	transition: transform 1s linear;
+
+
+
 }
+
 .elem4:hover {
 	transform-origin: left center;
 	transform: rotate(30deg);
-    
+	transition: transform 2s linear;
+
 }
 
-.elem5{
-    border:1px
-    
 
+.elem5 {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	transition: transform 1s linear;
+
+
+}
+
+.elem5:hover {
+	transform-origin: right bottom;
+	transform: scale(1.5);
+
+}
+
+.elem10 {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	transition: transform 1s linear;
+
+
+}
+
+.elem10:hover {
+	transform-origin: right top;
+	transform: scale(1.5);
+
+}
+
+.elem6 {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	transition: transform 1s linear;
+
+
+}
+
+.elem6:hover {
+	transform-origin: bottom;
+	transform: skew(45deg);
+
+}
+
+.elem7 {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	transition: transform 1s linear;
+
+
+}
+
+.elem7:hover {
+	transform-origin: top;
+	transform: skew(45deg);
+
+}
+
+
+
+
+
+
+
+
+
+.elem8 {
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 1px solid red;
+}
+
+@keyframes anim1 {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes anim2 {
+	0% {
+		background: white;
+	}
+
+	50% {
+		background: red;
+	}
+
+	100% {
+		background: white;
+	}
+}
+
+.elem9 {
+	position: absolute;
+	top: 75px;
+	/* центр луны по центру земли */
+	left: 150%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid red;
+	transform-origin: -200px center;
+	animation: anim1 8s linear infinite, anim2 8s linear infinite;
 }
