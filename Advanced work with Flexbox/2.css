@@ -1,0 +1,95 @@
+.parent {
+	display: flex;
+	width: 500px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+	width: 200px;
+	flex-grow: 3;
+}
+.elem2 {
+	width: 100px;
+	flex-grow: 1;
+}
+.elem3 {
+	width: 100px;
+	flex-grow: 1;
+}
+
+.parent1 {
+	display: flex;
+	width: 700px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child1 {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem4 {
+	width: 100px;
+	flex-grow: 1;
+}
+.elem5 {
+	width: 100px;
+	flex-grow: 2;
+}
+.elem6 {
+	width: 200px;
+	flex-grow: 3;
+}
+
+.parent2 {
+	display: flex;
+	width: 500px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child2 {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem7 {
+	width: 100px;
+	flex-grow: 1;
+}
+.elem8 {
+	width: 100px;
+	flex-grow: 1;
+}
+.elem9 {
+	width: 100px;
+	flex-grow: 1;
+}
+
+.parent3 {
+	display: flex;
+	width: 1000px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child3 {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem10 {
+	width: 200px;
+	flex-grow: 1;
+}
+.elem11 {
+	width: 100px;
+	flex-grow: 2;
+}
+.elem12 {
+	width: 100px;
+	flex-grow: 4;
+}
+.elem13 {
+	width: 100px;
+	flex-grow: 3;
+}
